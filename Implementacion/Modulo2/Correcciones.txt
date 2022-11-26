@@ -1,0 +1,3 @@
+Daniel Munive Meneses - A01734205
+
+- Se hizo uso de dtaa argumentation y de datagen en el fit del modelo, apra intentar mejorarlo, en los resultados de este podemos ver que hubo cierta mejora pero aun queda un gran espacio de mejora

@@ -1,0 +1,15 @@
+Daniel Munive Meneses - A01734205
+
+- Se hizo una validacion para el calculo de ratio cuando su valor denga un denominador 0, esto con ayuda de 
+
+'dfExtra.loc[~np.isfinite(dfExtra['BookToMarketRatio']), 'BookToMarketRatio'] = np.nan'
+
+- Ya no se sustituyen los nan por 0 sino que se hace un dropna a estos esto con 
+
+'df_ServiceLast = df_ServiceLast[['EPSP','BookToMarketRatio','ShortFinancialLeverage','LongFinancialLeverage','RNQ']].dropna()'
+
+- Se aumento la expliacion de la matriz de correlacion en el apartado de 'Resultados Correlacion' dentro del archivo.
+
+-Se explico de mejor manera el proceso que se hizo en para los cambios de dataset en base a los resultados obtenidos por el ánalisis de los outliers
+
+
